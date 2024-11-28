@@ -3,6 +3,10 @@
 Created on Fri Apr 19 12:11:13 2024
 
 @author: miche
+
+Diese Datei liest die PDFs aus von 2023, inklusive datacleaning und tokenizing.
+Sie ist zur vollständigkeit 2 mal da, um Rechenzeit zu sparen wurden die bereits generieten
+Daten gemerged mit denen von 2022.
 """
 import pandas as pd
 import pickle
@@ -76,7 +80,7 @@ if __name__ == '__main__':
         doc.to_disk("./doc_trf_2/" + file.split(".")[0] + ".spadoc")
         #doc_bin.add(doc)
     
-    # TODO irgendwas is hier verbugt 
+    # TODO irgendwas is hier verbugt, warning prüfen
     doc_bin = DocBin(store_user_data=True, docs=map_load())
     doc_bin.to_disk("./doc_trf_2/data.spacy")
     
