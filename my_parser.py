@@ -15,9 +15,8 @@ BASE_DIR = Path(__file__).parent.parent
 os.chdir(BASE_DIR)
 
 """
-WORK IN PROGRESS!!!
-auslesen der Textblöcke von PDFs
-
+Diese Datei wurde benutzt um bestimmte Bilder für die Powerpoint Präsentation zu generieren.
+Sie ist in diesem github, da andere Dateien funktionen aus dieser Datei importieren.
 """
 
 
@@ -32,6 +31,11 @@ def ordering_function(elements):
     return sorted(elements, key=lambda elem: (elem.x0, elem.y0))  
 
 def parser(pdf_path, page_number, **kwargs):
+    """
+    This function also removes text elements with less han 101 Tokens, as part of the
+    datacleaning. e.g. removing descriptions of images and diagramms, too short to learn 
+    something from it.
+    """
     document = load_file(pdf_path)
     elements = document.elements.filter_by_page(page_number)
     text_list = [i.text() for i in elements if len(i.text()) > 100]
