@@ -1,0 +1,4 @@
+spacy
+tensorflow==2.15.0
+tf_keras==2.15.1
+numpy=='1.26.4'
