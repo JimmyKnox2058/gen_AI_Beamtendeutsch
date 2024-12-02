@@ -1,4 +1,3 @@
-# work in progress
 # Generative KI für Beamtendeutsch
 ## Kurzbeschreibung des Projekts
 Das Projekt ist ein Lernprojekt von [Michael Heinrich](https://github.com/JimmyKnox2058), dessen Inhalt die Entwicklung eines neuronalen Netzes (NN), für die Generierung von kurzen Textfragmenten mit ca. 50 Tokens (Wörter und Satzzeichen). Der generierte Text soll in der gleichen Schreibweise wie das *gemeinsame Ministerialblatt* - kompliziert, verklausuliert, juristisch - geschrieben sein. Der generierte Text hat dabei *nicht* den Anspruch *thematisch sinnvoll* zu sein. Entsprechend wurden als Vorlage Ausgaben des *gemeinsamen Ministerialblattes* zum Lernen genommen. Die *gemeinsamen Ministerialblätter* sind die seit 1950 von der Bundesregierung Deutschlands herausgegebenen Verwaltungsanweisungen - diese wurden auf der Website fragdenstaat.de als .pdf veröffentlicht. Die juristischen Zusammenhänge dazu werden auf ihrer Webseite, sowie Wikipedia und anderen Nachrichtenmedien veröffentlicht.
@@ -58,5 +57,5 @@ Dies war auch ein lustiges Ergebnis während der Implementierung des beam_search
 Die Links am Ende der Präsentation führen zu verschiedenen Versionen des Projekts, die inzwischen leider nicht mehr ausführbar sind. Vermutete Ursache nach debugging: Änderungen im Docker-image von Seiten Kaggle.
 In den ipynb auf Kaggle konnte man selbst, verschiedene Modelle ausprobieren und neue Texte generien lassen. Das Projekt wird aber hier in kleinerer Version hochgestellt.
 
-TODO: 
-Anleitung für ipynb schreiben
+### selbst ausprobieren?
+den Ordner für das "interaktive" ipynb runter laden, requirements.txt und los geht's!
