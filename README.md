@@ -57,5 +57,7 @@ Dies war auch ein lustiges Ergebnis während der Implementierung des beam_search
 Die Links am Ende der Präsentation führen zu verschiedenen Versionen des Projekts, die inzwischen leider nicht mehr ausführbar sind. Vermutete Ursache nach debugging: Änderungen im Docker-image von Seiten Kaggle.
 In den ipynb auf Kaggle konnte man selbst, verschiedene Modelle ausprobieren und neue Texte generien lassen. Das Projekt wird aber hier in kleinerer Version hochgestellt.
 
+Für das Projekt hatten wir nur 3 Tage Zeit, klar war mir der Datensatz vertraut und ich habe schon ein paar Tage eher mit dem Datacleaning begonnen, aber letztlich ist wärend der 3 Tagen erst aufgefallen, dass OCR nicht gut geht und musste mit dem anderen aufwändigeren Verfahren, das Datacleaning neu beginnen. Ensprechend, sind auch auf Kaggel die Versionen nicht im bestem Schreibstil.
+
 ### selbst ausprobieren?
 den Ordner für das "interaktive" ipynb runter laden, requirements.txt und los geht's!
